@@ -23,12 +23,10 @@
   <link rel="stylesheet" href="/admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
   <link rel="stylesheet" href="/admin/plugins/daterangepicker/daterangepicker.css">
-  <!-- summernote -->
-  <link rel="stylesheet" href="/admin/plugins/summernote/summernote-bs4.min.css">
 
   <link href="/admin/dist/css/colorbox.css" rel="stylesheet">
 
-  <script src="https://cdn.tiny.cloud/1/m34oes5elsydoio9gfod96miytuvs29fnk6c0zyxfte9skca/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
 
  
 
@@ -82,7 +80,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="./index.html" class="nav-link">
+                        <a href="{{ route('post.index') }}" class="nav-link">
                         <p>Все статьи</p>
                         </a>
                     </li>
@@ -177,6 +175,7 @@
 
 <script type="text/javascript" src="/packages/barryvdh/elfinder/js/standalonepopup.js"></script>
 
+<script src="https://cdn.tiny.cloud/1/pkyqnumuo0e2dj9bazhsllf6dsjwzn2iq4wifi7fazfsikzj/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 
 <script src="/admin/admin.js"></script>
 
